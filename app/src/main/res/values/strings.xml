@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="button">Button</string>
+    <string name="welcome_to_studiox">Welcome to StudioX.</string>
+    <string name="by_aayushpratap">by AayushPratap.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_studio">Enter Studio</string>
+    <string name="login_with_gmail">Login with Gmail</string>
+    <string name="login_with_twitter_x">Login with Twitter/X</string>
+    <string name="my_gallery">My Gallery</string>
+    <string name="nnature">▦\nNature</string>
+    <string name="nportraits">▦\nPortraits</string>
+    <string name="ntravel">▦\nTravel</string>
+    <string name="nprofile">♙\nProfile</string>
+    <string name="nhome">⌂\nHome</string>
+    <string name="lighting">Lighting</string>
+    <string name="composition">Composition</string>
+    <string name="photography_skills">Photography Skills</string>
+    <string name="editing">Editing</string>
+    <string name="mountain_hike">Mountain Hike</string>
+    <string name="sunset_at_beach">Sunset at Beach</string>
+    <string name="nevents">▦\nEvents</string>
+    <string name="captured_by_user">Captured by User</string>
+    <string name="adventure_awards">Adventure Awards</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="details">Details</string>
+    <string name="entity_total_fmt">Total entities: %1$d</string>
+    <string name="property1_label">Property 1</string>
+    <string name="property2_label">Property 2</string>
+    <string name="description_label">Description</string>
+    <string name="ticker_label">Ticker</string>
+    <string name="asset_type_label">Asset Type</string>
+    <string name="current_price_label">Current Price</string>
+    <string name="dividend_yield_label">Dividend Yield</string>
+</resources>

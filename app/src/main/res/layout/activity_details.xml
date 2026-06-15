@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="56dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:textColor="#1F1F23"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ticker_label"
+            android:textColor="#A6A2B2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detailTicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1F1F23"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/asset_type_label"
+            android:textColor="#A6A2B2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detailAssetType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1F1F23"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_label"
+            android:textColor="#A6A2B2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1F1F23"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_price_label"
+            android:textColor="#A6A2B2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1F1F23"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dividend_yield_label"
+            android:textColor="#A6A2B2"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detailYield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#1F1F23"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
