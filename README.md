@@ -66,11 +66,11 @@ Activities (`LoginActivity`, `MainActivity` as the dashboard, `DetailsActivity`)
 
 ## Login Credentials
 
-Per the assignment specification, the **first name is the username** and the **student ID is the password**:
+Per the assignment specification, the **student ID is the username** and the **first name  is the password**: I found out, if the user has middle name, the password would be **first name(space)middle name** in my case **Aayush Pratap**
 
 | Field | Value |
 |-------|-------|
-| Username | Your first name (e.g. `Aayush`) |
+| Username | Your first name (e.g. `Aayush Pratap`) |
 | Password | Your student ID (e.g. `s8140991`) |
 
 On a successful login the app stores the returned `keypass` and uses it to load the dashboard. On failure, an error message is displayed.
